@@ -6,6 +6,7 @@ import Tiggo8CSH from "../assets/cars/Tiggo.8_CSH.png";
 import TiggoCross from "../assets/cars/Tiggo.Cross_Comfort.png";
 import Tiggo8 from "../assets/cars/Tiggo.8.png";
 import OmodaE5 from "../assets/cars/Omoda.E5.png";
+import TiggoCrossCSH from "../assets/cars/Tiggo.Cross_CSH.png";
 
 export const Details = [
   {
@@ -16,15 +17,17 @@ export const Details = [
     car_features: [],
     detail_background: {},
     car_specs: [],
+   
   },
   {
-    car_image: "",
-    car_name: "",
+    car_image: TiggoCrossCSH,
+    car_name: "Tiggo Cross CSH",
     car_price: "",
     car_tag: false,
     car_features: [],
     detail_background: {},
     car_specs: [],
+
   },
   {
     car_image: J6,
@@ -34,6 +37,7 @@ export const Details = [
     car_features: [],
     detail_background: {},
     car_specs: [],
+    
   },
   {
     car_image: TiggoCrossSport,
@@ -43,6 +47,7 @@ export const Details = [
     car_features: [],
     detail_background: {},
     car_specs: [],
+
   },
   {
     car_image: TiggoCross,
@@ -52,6 +57,7 @@ export const Details = [
     car_features: [],
     detail_background: {},
     car_specs: [],
+
   },
   {
     car_image: Tiggo8CSH,
@@ -62,14 +68,16 @@ export const Details = [
     detail_background: {},
     car_specs: [],
   },
+    
   {
     car_image: OmodaC5,
-    car_name: "Omoda C5 RZ",
+    car_name: "Omoda C5",
     car_price: "",
     car_tag: false,
     car_features: [],
     detail_background: {},
     car_specs: [],
+    
   },
   {
     car_image: OmodaE5,
@@ -79,6 +87,7 @@ export const Details = [
     car_features: [],
     detail_background: {},
     car_specs: [],
+    
   },
   {
     car_image: Tiggo8,
@@ -88,5 +97,6 @@ export const Details = [
     car_features: [],
     detail_background: {},
     car_specs: [],
+    
   },
 ];
