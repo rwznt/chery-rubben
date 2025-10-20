@@ -9,13 +9,13 @@ interface LayoutProps {
 
 const Layout = ({isHeader, children, noFooter}: LayoutProps) => {
     return (
-        <div className="relative bg-white">
+        <div className="relative bg-black">
             {isHeader && (
                 <header className={`fixed top-0 z-10 opacity-100`}>
                     <Header/>
                 </header>
             )}
-            <main className="overflow-hidden">{children}</main>
+            <main className="overflow-hidden ">{children}</main>
             {!noFooter && <Footer/>}
         </div>
     )

@@ -1,4 +1,4 @@
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -39,4 +39,29 @@
 
 .read-the-docs {
   color: #888;
+} */
+
+@import "tailwindcss";
+
+.ribbon-tag {
+  position: absolute;
+  top: 12px;
+  right: -45px;
+  width: 140px;
+  background-color: #84cc16; /* lime-500 */
+  text-align: center;
+  transform: rotate(45deg);
+  z-index: 20;
+}
+
+.ribbon-tag span {
+  display: block;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 4px 0;
+}
+
+html {
+  scroll-behavior: smooth;
 }

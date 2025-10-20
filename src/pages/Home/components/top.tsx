@@ -1,7 +1,11 @@
-const Top = () => {
-    return (
-        <> Top </>
-    )
-}
+import TopImg from "../../../assets/top.png";
 
-export default Top
+const Top = () => {
+  return (
+    <div className="w-screen overflow-hidden">
+      <img src={TopImg} alt="Tiggo 1400KM" className="w-full object-cover" />
+    </div>
+  );
+};
+
+export default Top;

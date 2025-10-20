@@ -1,1 +1,12 @@
 @import "tailwindcss";
+/* 
+@font-face {
+  font-family: 'Chery';
+  src: url('./font/long-fox.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Chery', sans-serif;
+} */
