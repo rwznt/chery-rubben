@@ -45,21 +45,29 @@
 
 .ribbon-tag {
   position: absolute;
-  top: 12px;
-  right: -45px;
-  width: 140px;
-  background-color: #84cc16; /* lime-500 */
+  top: 16px;
+  right: -55px;
+  width: 155px; /* Bigger width */
+  height: 25px;
+  background-color: var(--ribbon-color); /* customizable */
   text-align: center;
   transform: rotate(45deg);
-  z-index: 20;
+  z-index: 1;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+  display: flex; /* Use flexbox for perfect centering */
+  align-items: center; /* Vertical center */
+  justify-content: center; /* Horizontal center */
 }
 
 .ribbon-tag span {
-  display: block;
-  color: white;
-  font-size: 12px;
-  font-weight: bold;
-  padding: 4px 0;
+  color: #fff;
+  font-size: 16px; /* Slightly smaller for better fit */
+  font-weight: 700;
+  letter-spacing: 0; /* No extra spacing */
+  line-height: 1; /* Avoid extra vertical space */
+  padding: 0; /* Removed vertical padding since flex centers content */
+  user-select: none; /* Prevent accidental text selection */
 }
 
 html {

@@ -13,6 +13,7 @@ const Models = () => {
               image={car.car_image}
               name={car.car_name}
               showTag={car.car_tag}
+              tagText={car.tagText}
             />
           ))}
         </div>

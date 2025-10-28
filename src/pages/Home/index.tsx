@@ -1,3 +1,4 @@
+// import ContactCenter from "./components/contact";
 import Models from "./components/models";
 import Top from "./components/top";
 
@@ -9,6 +10,7 @@ const Home = () => {
         Elegance In Motion
       </div>
       <Models />
+      {/* <ContactCenter /> */}
     </>
   );
 };

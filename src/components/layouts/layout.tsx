@@ -15,7 +15,7 @@ const Layout = ({isHeader, children, noFooter}: LayoutProps) => {
                     <Header/>
                 </header>
             )}
-            <main className="overflow-hidden ">{children}</main>
+            <main className="overflow-hidden pt-10 md:pt-0">{children}</main>
             {!noFooter && <Footer/>}
         </div>
     )

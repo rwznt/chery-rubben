@@ -7,8 +7,9 @@ import TiggoCross from "../assets/cars/Tiggo.Cross_Comfort.png";
 import Tiggo8 from "../assets/cars/Tiggo.8.png";
 import OmodaE5 from "../assets/cars/Omoda.E5.png";
 import TiggoCrossCSH from "../assets/cars/Tiggo.Cross_CSH.png";
+import type { RibbonTag, CarDetail } from "@/libs/type";
 
-export const Details = [
+export const Details: CarDetail[] = [
   {
     car_image: Tiggo9CSH,
     car_name: "Tiggo 9 CSH",
@@ -23,7 +24,8 @@ export const Details = [
     car_image: TiggoCrossCSH,
     car_name: "Tiggo Cross CSH",
     car_price: "",
-    car_tag: false,
+    car_tag: true,
+    tagText: 'PHEV',
     car_features: [],
     detail_background: {},
     car_specs: [],
@@ -34,6 +36,7 @@ export const Details = [
     car_name: "J6",
     car_price: "",
     car_tag: true,
+    tagText: 'EV',
     car_features: [],
     detail_background: {},
     car_specs: [],
@@ -84,6 +87,7 @@ export const Details = [
     car_name: "Omoda E5",
     car_price: "",
     car_tag: true,
+    tagText: 'EV',
     car_features: [],
     detail_background: {},
     car_specs: [],
@@ -100,3 +104,10 @@ export const Details = [
     
   },
 ];
+
+export const RIBBON_COLORS: Record<RibbonTag, string> = {
+  EV: "#84cc16",    // Lime-500
+  PHEV: "#3b82f6",  // Orange-500
+  HEV: "#3b82f6",   // Blue-500
+};
+
